@@ -8,7 +8,7 @@ class InputHelper:
         self.day = day
 
     def load_data(self, as_string=False, as_json=False) -> Union[List[str], str]:
-        file_path = "../inputs/day{}.txt".format(self.day)
+        file_path = "../input/day{}.txt".format(self.day)
 
         if not isfile(path=file_path):
             print("File \"{}\" does not exist!\n".format(file_path))

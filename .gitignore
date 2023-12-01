@@ -1,4 +1,4 @@
-inputs/*
+input/*
 !.gitkeep
 *.idea
 *.iml

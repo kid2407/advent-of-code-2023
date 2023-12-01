@@ -1,8 +1,8 @@
 ## Task Overview with times
 
-* [ ] Day 1
-    * [ ] Part 1 (XX.XXms)
-    * [ ] Part 2 (XX.XXms)
+* [x] Day 1
+    * [x] Part 1 (1.00ms)
+    * [x] Part 2 (13.80ms)
 * [ ] Day 2
     * [ ] Part 1 (XX.XXms)
     * [ ] Part 2 (XX.XXms)
