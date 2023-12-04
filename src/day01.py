@@ -6,7 +6,7 @@ helper = InputHelper(1)
 data = helper.load_data()
 
 
-def sumCalibrationValues(lines) -> int:
+def sumCalibrationValues(lines: list[str]) -> int:
     calibrationValuesSum = 0
     for line in lines:
         firstDigit = None
@@ -21,7 +21,7 @@ def sumCalibrationValues(lines) -> int:
     return calibrationValuesSum
 
 
-def sumRealCalibrationValues(lines) -> int:
+def sumRealCalibrationValues(lines: list[str]) -> int:
     digitsAsWords = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     trueCalibrationValuesSum = 0
     for line in lines:
